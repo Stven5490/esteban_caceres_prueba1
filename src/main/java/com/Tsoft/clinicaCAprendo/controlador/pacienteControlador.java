@@ -9,9 +9,10 @@ public class pacienteControlador {
     private Scanner scanner;
 
     public pacienteControlador(pacienteClinico paciente) {
-       this.Paciente = paciente;
-        this.scanner = scanner;
+        this.Paciente = paciente;
+        this.scanner = new Scanner(System.in);
     }
+
     public void mostrarMenu() {
         int opcion;
         do {
